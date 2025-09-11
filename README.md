@@ -31,27 +31,27 @@ Frameworks_Assignment/
 
 ---
 
-## ⚙ Installation  
+##  Installation  
 
 Clone this repository:  
 
 git clone https://github.com/Ikamunya-web/Frameworks_Assignment.git
 cd Frameworks_Assignment
 
-Install dependencies:
+## Install dependencies:
 pip install -r requirements.txt
 
-Running the Project
+## Running the Project
 Run the Streamlit app:
 streamlit run app.py
 
-Features
+## Features
  Load and clean CORD-19 metadata dataset
  Analyze publications by year, journal, and keywords
  Visualize trends with bar charts, histograms, and word clouds
  Interactive filters in the Streamlit app
 
- Tools & Libraries
+ ## Tools & Libraries
 Pandas → Data manipulation & cleaning
 
 Matplotlib → Plotting
@@ -62,7 +62,7 @@ Streamlit → Web app framework
 
 WordCloud → Generating word cloud of paper titles
 
-Example Visualizations
+## Example Visualizations
  Number of publications per year
 
  Top publishing journals
@@ -71,13 +71,13 @@ Example Visualizations
 
  Distribution of papers by source
 
- Dataset
+ ## Dataset
 
 Source: CORD-19 Research Challenge (Kaggle)
 
 File used: metadata.csv (subset for assignment)
 
- Reflection
+ ## Reflection
 This project shows how Python frameworks simplify the data science workflow:
 
 Pandas → Clean & explore data
